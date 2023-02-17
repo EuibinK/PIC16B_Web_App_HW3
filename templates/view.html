@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block header %}
+    <h1> {% block title %}Some Messages{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    {% for m in messages %}
+        <br><b>{{m.1}}</b>
+        <br>{{m.0}}
+        <br>
+    {% endfor %}
+{% endblock %}
