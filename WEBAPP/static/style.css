@@ -1,6 +1,6 @@
 html {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background: #DADAC8;
+    background: #D5D9CC;
     padding: 1rem;
 }
 
@@ -14,7 +14,7 @@ h1 {
     text-align: center;
 }
 a {
-    color: LightSlateGray;
+    color: #6E4B41;
     text-decoration: none;
 }
 
